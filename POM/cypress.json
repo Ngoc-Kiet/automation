@@ -1,0 +1,13 @@
+{
+    
+    "baseUrl" : "https://demoqa.com",
+    "testFiles": "**/*.feature",
+    "env":{
+        "apiUrl":"https://demoqa.com",
+        "userName":"kiet",
+        "password":"Kiet@123"
+       
+    }
+
+   
+}

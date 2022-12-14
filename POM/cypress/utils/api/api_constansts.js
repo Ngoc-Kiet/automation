@@ -1,0 +1,16 @@
+export const STATUS_CODE = {
+    RESPONSE_CODE_SUCCESSFUL :200,
+    RESPONSE_CODE_SUCCESSFUL_NO_CONTENT :204,
+    RESPONSE_CODE_CREATE_SUCCESSFUL :201,
+    RESPONSE_CODE_TOO_MANY_REQUEESTS :429,
+    RESPONSE_CODE_NOT_FOUND :404
+}
+export const ACCOUNT_ENDPOINT = {
+    ENDPOINT_TOKEN_CREATE: "/Account/v1/GenerateToken",
+    ENDPOINT_AUTHORIZED_CREATE: "/Account/v1/Login",
+    ENDPOINT_STUDENT_CREATE : "/automation-practice-form"
+}
+export const BOOKSTORE_ENDPOINT = {
+    ENDPOINT_BOOK_ADD: "/BookStore/v1/Books/",
+    ENDPOINT_BOOKS_DELETE:(userId)=>`/BookStore/v1/Books?UserId=${userId}`
+}
